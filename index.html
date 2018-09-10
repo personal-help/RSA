@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+   <title>Site</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="">
+     <meta name="author" content="">
+     
+     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="img/">
+        <script src="js/jQuery/Library.js"></script>
+        <script type="text/javascript" src="js/function_js.js"></script>
+ </head>
+    
+<body>
+ 
+ <div class="container">   
+  <header>
+      <div class="row cols col-12">
+        <div class="cols col-4" id="hdOne" onclick="userName(), $('#button1').hide()"><p id="button1">ВНЕСТИ ИМЯ</p></div>
+        <div class="cols col-4" id="hdTwo">SITE</div>
+        <div class="cols col-4" id="hdThr"></div> 
+
+      </div>
+      <div class="row cols col-12"> <h1>ИСАПЫТАТЕЛЬНЫЙ ПОЛИГОН JAVASCRIPT!!!</h1></div>
+  </header>
+  
+  <main>
+    <div class="cols col-2">
+    
+        <form id="form1" name="form1">
+            <ul id="headMenu" style="display:none">
+                <li id="menu" class="part1">Смена цвета фона</li>     
+                <li id="menu" class="part2"  onclick="$('.part2').hide()">ТВОЁ БУДУЩЕЕ!</li>
+                <li id="menu" class="part3" style="cursor:pointer">Загрузить php данные</li>
+                <li id="menu" class="part4">Пункт 4</li>
+                <li id="menu" class="part5">Пункт 5</li>
+                <li id="menu" >Пункт 6</li>
+                <li id="menu">Пункт 7</li>
+                <li id="menu" class="part8" >Шифрофвать</li>
+                <li id="menu" class="part9" >Закодировать</li>
+                <li id="menu" class="part10">Раскодировать</li>
+            </ul>
+        </form>
+        <p id="show">Показать меню</p>
+        <p id="hide" style="display:none">Скрыть меню</p>
+    </div>
+      
+   <div class="cols col-8"><br>
+       
+       <div id="loading">
+           
+       </div>
+   </div>
+      
+   <div class="cols col-2">
+       <div id="test" ></div><br>
+   </div>
+  </main>
+        
+  <footer>
+      <div class="row cols col-12">
+          <h1>SYSTEM NOT FOUND!</h1>
+      </div>
+  </footer>
+            
+ </div>    
+</body>    
+</html>
